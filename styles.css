@@ -1,0 +1,40 @@
+h1, h2 {
+    color: purple; 
+    font-size: 96px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 5px;
+    border: 1px solid black;
+    padding-left: 15px;
+}
+
+img {
+    height: 320px;
+    /* width: 200px; */
+}
+
+em {
+    text-transform: uppercase;
+    font-style: initial;
+}
+#first {
+    text-align: left;
+}
+#second {
+    /* text-align: right; */
+}
+.right {
+    text-align: right;
+}
+.tacos {
+    color: seagreen;
+}
+body {
+    /* background-color: blue */
+}
+
+p{
+    text-align: center;
+    font-family: Helvetica;
+}
