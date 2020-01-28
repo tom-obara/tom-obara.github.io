@@ -45,7 +45,7 @@ body {
   
   .jumbotron2 {
     background-color: rgb(255, 250, 242);
-    height: 200px;
+    height: 260px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -67,6 +67,7 @@ body {
   .media1 img {
     width: 140px;
     height: 90px;
+    margin: 30px;
   }
 
   .media2 img {
@@ -77,6 +78,7 @@ body {
   .media3 img {
     width: 140px;
     height: 90px;
+    margin: 30px
   }
   
   .blockquote {
