@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Tienne&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Appointments</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
+    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
+    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="NDlogo.JPG" class="d-inline-block align-middle">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+                <!-- This causes the links to move to the right -->
+                <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+                <div class="navbar-nav mr-auto">
+                    <a class="nav-item nav-link" href="index.html"><i class="fas fa-home"></i><strong> Home
+                        </strong></a>
+                    <a class="nav-item nav-link" href="aboutme.html"><i class="fas fa-user-md"></i><strong> About
+                            Me</strong><span class=sr-only>(current)</span></a>
+                    <a class="nav-item nav-link active" href="sppointments.html"><i
+                            class="far fa-calendar-check"></i><strong>
+                            Appointments</strong></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row py-5">
+        <div class="col text-center">
+            <h2><u>Make an Appointment</u></h2>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <form action="https://formspree.io/mqkqzyqw" method="post">
+          <div class="form-group">
+            <label for="first name">First Name</label>
+            <input type="text" class="form-control" id="name" name="first name">
+          </div>
+          <div class="form-group">
+            <label for="last name">Last Name</label>
+            <input type="text" class="form-control" id="name" name="last name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <small class="form-text text-muted">Your email address will only be used for scheduling purposes. You will not receive any alerts or unwanted notifications.</small>
+          </div>
+          <div class="form-group">
+            <label for="phone number">Phone Number</label>
+            <input type="text" class="form-control" id="phone" name="phone number">
+          </div>
+          <div class="form-group">
+            <label>How would you prefer to be contacted?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactMethod" id="contactEmail" value="email" checked>
+              <label class="form-check-label" for="contactEmail">
+                Email
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="contactMethod" id="contactPhone" value="phone">
+              <label class="form-check-label" for="contactPhone">
+                Phone
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+
+    <hr class="my-4">
+
+    <!-- Footer grid with a class added for custom styling -->
+    <div class="container footer text-center">
+        <div class="row my-5">
+            <div class="col-sm-4">
+                <p> </p>
+            </div>
+            <div class="col-sm-2">
+                <h6>Site Navigation</h6>
+                <ul class="list-unstyled mt-3">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="aboutme.html"><i class="fas fa-user-md"></i> About Me</a></li>
+                    <li><a href="appointments.html"><i class="far fa-calendar-check"></i> Appointments</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <img src="drllamas.jpg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+<hr class="my-4">
+
+</html>

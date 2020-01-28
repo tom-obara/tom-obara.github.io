@@ -47,7 +47,7 @@
                         </strong></a>
                     <a class="nav-item nav-link active" href="aboutme.html"><i class="fas fa-user-md"></i><strong> About
                             Me</strong><span class=sr-only>(current)</span></a>
-                    <a class="nav-item nav-link" href="makeappointment.html"><i
+                    <a class="nav-item nav-link" href="appointments.html"><i
                             class="far fa-calendar-check"></i><strong>
                             Appointments</strong></a>
                 </div>
@@ -147,8 +147,8 @@
                 </tr>
                 <tr>
                   <th></th>
-                  <td><button type="button" class="btn btn-success">Book Now</button></td>
-                  <td><button type="button" class="btn btn-success">Book Now</button></td>
+                  <td><button type="button" class="btn btn-success" onclick="window.location.href='appointments.html'">Book Now</button></td>
+                  <td><button type="button" class="btn btn-success" onclick="window.location.href='appointments.html'">Book Now</button></td>
                 </tr>
               </tbody>
             </table>
@@ -157,11 +157,11 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container py-5">
         <div class="row">
             <div class="col text-center">
-                <h2>People Just Love the Carousel</h2>
-                <p>It works best when the images inside have the same orientation and aspect ratio</p>
+                <h2>Book Your Appointment Today</h2>
+                <p>See what patients are raving about</p>
             </div>
         </div>
         <!-- Carousel -->
@@ -169,11 +169,13 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <!-- The img-fluid class makes the image responsive -->
-                    <img src="carnitas.jpg" class="img-fluid" alt="Tacos">
+                    <img src="withpatient.jpg" class="img-fluid" alt="Photo">
                 </div>
                 <div class="carousel-item">
-                    <img src="whiskey.jpg" class="img-fluid" alt="Whiskey">
+                    <img src="withpatient2.jpg" class="img-fluid" alt="Photo 2">
                 </div>
+                <div class="carousel-item">
+                    <img src="elephants.jpg" class="img-fluid" alt="Elephants">
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -186,10 +188,7 @@
         </div>
     </div>
 
-
-    <div>
-        <button type="button" class="btn btn-primary btn-lg btn-block">Schedule Your Appointment Today</button>
-    </div>
+    <hr class="my-4">
 
     <!-- Footer grid with a class added for custom styling -->
     <div class="container footer text-center">

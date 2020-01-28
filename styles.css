@@ -107,4 +107,11 @@ body {
     height: 112px;
   }
 
+  .carousel-inner img {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
  

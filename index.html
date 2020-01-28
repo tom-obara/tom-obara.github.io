@@ -48,7 +48,7 @@
           <a class="nav-item nav-link active" href="index.html"><i class="fas fa-home"></i><strong> Home </strong><span
               class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" href="aboutme.html"><i class="fas fa-user-md"></i><strong> About Me</strong></a>
-          <a class="nav-item nav-link" href="makeappointment.html"><i class="far fa-calendar-check"></i><strong>
+          <a class="nav-item nav-link" href="appointments.html"><i class="far fa-calendar-check"></i><strong>
               Appointments</strong></a>
         </div>
       </div>
@@ -101,56 +101,74 @@
     </div>
   </div>
 
-
-
-  <!-- Testimonials, with a custom background color -->
-  <div class="testimonials my-4 py-4">
-    <div class="container">
-      <div class="row my-4">
-        <div class="col text-center">
-          <h2><u>Patient Testimonials</u></h2>
+    <!-- Testimonials, with a custom background color -->
+    <div class="testimonials my-4 py-5">
+      <div class="container">
+        <div class="row my-4">
+          <div class="col text-center">
+            <h2><u>Patient Testimonials</u></h2>
+          </div>
         </div>
-      </div>
-      <!-- Media object/media list -->
-      <!-- https://getbootstrap.com/docs/4.4/components/media-object/#media-list -->
-      <ul class="list-unstyled">
-        <li class="media1">
-          <img src="monkey.jpg" class="rotate90" alt="Monkey">
-          <div class="media-body">
+        <!-- Media object/media list -->
+        <!-- https://getbootstrap.com/docs/4.4/components/media-object/#media-list -->
+        <div class="row">
+          <div class="media1">
+            <div class="col-md-3">
+              <img src="monkey.jpg" class="rotate90" alt="Monkey">
+            </div>
+          </div>
+          <div class="col-md-9">
             <blockquote class="blockquote">
               <p class="mb-0">Dr. Llamas was so respectul of my personal space, she even gave a coconut to my family
                 free or charge. I'll be back for more!</p>
               <footer class="blockquote-footer">George, <cite title="Thai Monkey">Thai Monkey</cite></footer>
             </blockquote>
           </div>
-        </li>
-        <li class="media2">
-          <img src="ryan.jpg" class="mr-3" alt="Photo">
-          <div class="media-body">
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="media2">
+            <div class="col-md-3">
+              <img src="ryan.jpg" class="mr-53 alt="Photo">
+            </div>
+          </div>
+          <div class="col-md-9">
             <blockquote class="blockquote">
               <p class="mb-0">Dr. Llamas taught me everything I know about healthcare. As a nurse myself, I treat
-                patients with the care and respect learned from her approach and impressive medical repertoire. Thank
-                you Dr. Llamas!</p>
+              patients with the care and respect learned from her approach and impressive medical repertoire. Thank
+              you Dr. Llamas!</p>
               <footer class="blockquote-footer">Ryan, <cite title="Associate & Fan">Associate & Fan</cite></footer>
             </blockquote>
           </div>
-        </li>
-        <li class="media3">
-          <img src="tom1.jpg" class="rotate90" alt="Photo">
-          <div class="media-body">
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+          <div class="media3">
+            <div class="col-md-3">
+              <img src="tom1.jpg" class="rotate90" alt="Photo">
+            </div>
+          </div>
+          <div class="col-md-9">
             <blockquote class="blockquote">
               <p class="mb-0">Best. Doctor. Ever.</p>
               <footer class="blockquote-footer">Tom, <cite title="#1 Patient">#1 Patient</cite></footer>
             </blockquote>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
-  </div>
 
   <div>
-      <button type="button" class="btn btn-primary btn-lg btn-block">Schedule Your Appointment Today</button>
+      <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='appointments.html'">Schedule Your Appointment Today</button>
   </div>
+
+  <hr class="my-4">
 
   <!-- Footer grid with a class added for custom styling -->
   <div class="container footer text-center">
