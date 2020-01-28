@@ -9,12 +9,13 @@ body {
   }
   /* And the "logo" */
   .navbar-brand {
-    font-size: 30px;
+    font-size: 35px;
+    height: 55px
   }
 
   .navbar-brand img {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
   }
   .navbar-light .navbar-brand {
     color: red;
@@ -25,6 +26,7 @@ body {
     background-color: white;
   }
   
+
   /* Jumbotron background and font styles */
   /* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
   .jumbotron {
@@ -41,27 +43,68 @@ body {
     text-shadow: 2px 2px 2px black;
   }
   
+  .jumbotron2 {
+    background-color: rgb(255, 250, 242);
+    height: 200px;
+    padding-top: 40px;
+  }
+  
+  .lead {
+    font-size: 24px;
+  }
+
+  .row {
+    font-size: 18px;
+  }
+
   /* The background color of the "testimonials" part */
   .testimonials {
-    background-color: #eeeeee;
+    background-color: rgb(252, 239, 215);
   }
   
   /* The size of the testimonials images */
-  .media img {
-    width: 64px;
-    height: 64px;
+  .media1 img {
+    width: 140px;
+    height: 90px;
+  }
+
+  .media2 img {
+    width: 140px;
+    height: 110px;
+  }
+
+  .media3 img {
+    width: 140px;
+    height: 90px;
   }
   
-  /* The pricing */
-  .pricing {
-    background-color: #181818;
+  .blockquote {
+    font-size: 18px;
   }
-  .pricing h1 {
-    font-family: 'Permanent Marker', cursive;
-    color: #cccccc;
+
+  .rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+  /* About Me */
+  .aboutme {
+    background-color: rgb(255, 250, 242);
+  }
+
+  .card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: auto;
   }
   
   /* The footer */
   .footer img {
-    width: 100px;
+    width: 80px;
+    height: 112px;
   }
+
+ 
