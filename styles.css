@@ -4,7 +4,7 @@ body {
     font-family: 'Noto Sans', sans-serif;
   }
   /* Except we're using more specific rules to override the headlines */
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h5, h6 {
     font-family: 'Tienne', serif;
   }
   /* And the "logo" */
